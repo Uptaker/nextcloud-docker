@@ -93,4 +93,15 @@ Host:           nextcloud
 ```
 🎉 Set up a user & Done!
 
+---
+
+## Post-setup recommendations
+
+I found that my emails did not load with a full height, these configuration lines in `./data/config/config.php` fixed it:
+```php
+  'overwrite.cli.url' => 'https://cloud.mydomain.com',
+  'overwritehost' => 'cloud.mydomain.com',
+  'overwriteprotocol' => 'https',
+```
+
 
