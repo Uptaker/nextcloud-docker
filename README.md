@@ -76,7 +76,7 @@ sudo nginx -t
 sudo systemctl reload nginx.service
 ```
 
-## 4. Finish
+## 3. Finish
 
 Start it up
 ```bash
